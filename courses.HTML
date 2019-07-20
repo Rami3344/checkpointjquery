@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>Courses</title>
+    <link rel="stylesheet" href="./courses.css">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo-img" src="https://gomycode.tn/images/section2GMCLogo.png">
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./courses.HTML">Courses</a></li>
+            <li><a href="./contact.HTML">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="cover">
+            <h1 class="heading">Courses</h1>
+        </div>
+
+        <div class="viewmore-images">
+            <div class="background-img1">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img2">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>\
+            </div>
+            <div class="background-img3">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img4">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img5">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img6">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img7">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img8">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+            <div class="background-img9">
+                <div class="view-btn">
+                    <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                </div>
+            </div>
+        </div>
+
+        <h2>Feedback</h2>
+        <div class="form">
+            <button onclick="makebold()">B</button>
+            <button onclick="makeitalic()">I</button>
+            <button onclick="makeunderline()">Underline</button>
+            <select id="color" onclick="changecolor()">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+            </select>
+            <select id="size" onchange="changesize ()">
+                <option>20px</option>
+                <option>30px</option>
+                <option>40px</option>
+            </select>
+            <select id="police" onchange="changepolice()">
+                <option>Arial</option>
+                <option>Verdana</option>
+                <option>Geneva</option>
+            </select>
+            <br>
+            <textarea class="text" id="mytext" cols="60" rows="6"></textarea>
+        </div>
+        <div id="ex1" class="modal">
+            <p>This is GoMyCode Track.<br>Each track has its own goal.<br>By adopting this track, you chose your own
+                goal.</p>
+            <a href="#" rel="modal:close">Close</a>
+        </div>
+    </main>
+</body>
+<script src="./courses.js"></script>
+
+</html>
